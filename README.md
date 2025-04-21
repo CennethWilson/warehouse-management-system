@@ -53,14 +53,16 @@ To run and build the project locally, you'll need:
 
 3. **Configure database connection:**
 
-   Update the database connection string in `settings.json`. (`Server=;Port=;Database=;User ID=;Password=;`)
+   Update the database connection string in `settings.json`.
+   ```bash
+   Server=;Port=;Database=;User ID=;Password=;
 
-4. **Build the project:**
+5. **Build the project:**
 
    ```bash
    Ctrl + Shift + B  # or use the Build menu
 
-5. **Run the application:**
+6. **Run the application:**
 
    ```bash
    F5  # or click the green Start button
