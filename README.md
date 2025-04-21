@@ -1,10 +1,10 @@
 # Warehouse Management System
 
-A data science-focused passion project designed to simulate warehouse and supply chain operations. Built with Visual Studio using WinForms, this project emphasizes structured data management, database queries, and UI-based operations to reflect real-world warehouse workflows.
+A data science-focused passion project designed to simulate warehouse and supply chain operations. Built with Visual Studio using WinForms.
 
 ---
 
-## 📦 About the Project
+## ℹ️ About the Project
 
 The **Warehouse Management System** is an educational simulation that features:
 
@@ -26,7 +26,7 @@ The **Warehouse Management System** is an educational simulation that features:
 
 ---
 
-## 🚀 Getting Started
+## 📦 Getting Started
 
 ### Prerequisites
 
@@ -46,4 +46,25 @@ To run and build the project locally, you'll need:
    ```bash
    git clone https://github.com/YourUsername/warehouse-management-system.git
    cd warehouse-management-system
+   
+2. **Open the project in Visual Studio:**
 
+   Open `Warehouse Management System.sln`.
+
+3. **Configure database connection:**
+
+   Update the database connection string in `settings.json`. (`Server=;Port=;Database=;User ID=;Password=;`)
+
+4. **Build the project:**
+
+   ```bash
+   Ctrl + Shift + B  # or use the Build menu
+
+5. **Run the application:**
+
+   ```bash
+   F5  # or click the green Start button
+
+## 📃 License
+
+This project is licensed under the MIT License. See the `LICENSE.txt` file for more information.
