@@ -35,7 +35,7 @@ To run and build the project locally, you'll need:
 - Visual Studio (2022 or newer)
 - .NET Desktop Development workload installed
 - Access to a SQL database (e.g., SQL Server or MySQL)
-- Git (optional, for cloning)
+- Git (optional)
 
 ---
 
