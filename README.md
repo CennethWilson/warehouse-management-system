@@ -1,27 +1,28 @@
-# 📦 Warehouse Management System
+# Warehouse Management System
 
-A desktop application built with WinForms for managing warehouses, shipments, purchases, and inventories, with data stored in a SQL cloud database.
-
----
-
-## 📚 About the Project
-
-This project simulates a basic warehouse and supply chain management system with the following capabilities:
-
-- Track inventory across multiple warehouses.
-- Process and confirm item shipments.
-- Create and track purchase orders.
-- View statistics on suppliers, customers, and product movements.
-- Connect to a cloud-based SQL database to store and retrieve data.
+A data science-focused passion project designed to simulate warehouse and supply chain operations. Built with Visual Studio using WinForms, this project emphasizes structured data management, database queries, and UI-based operations to reflect real-world warehouse workflows.
 
 ---
 
-## 🛠 Built With
+## 📦 About the Project
 
-- [C# (WinForms)](https://learn.microsoft.com/en-us/dotnet/desktop/winforms/)
-- [.NET Framework / .NET Core](https://dotnet.microsoft.com/)
-- [MySQL](https://www.mysql.com/) (or any relational database of your choice)
-- [Visual Studio](https://visualstudio.microsoft.com/)
+The **Warehouse Management System** is an educational simulation that features:
+
+- Multiple warehouse, item, supplier and customer tracking
+- Inventory panel with general and warehouse-specific views
+- CRUD operations through a GUI
+- SQL database connectivity
+- Simulated supply chain features (e.g., transfers, purchase orders, shipment approval)
+
+---
+
+## 🛠️ Built With
+
+- [C#](https://learn.microsoft.com/en-us/dotnet/csharp/) — primary programming language
+- [WinForms](https://learn.microsoft.com/en-us/dotnet/desktop/winforms/) — for user interface development
+- [Microsoft Visual Studio](https://visualstudio.microsoft.com/) — development environment
+- [SQL Server / MySQL](https://www.mysql.com/) — backend database (configurable)
+- [Guna UI2](https://www.nuget.org/packages/Guna.UI2.WinForms/) — for modern UI elements
 
 ---
 
@@ -32,16 +33,17 @@ This project simulates a basic warehouse and supply chain management system with
 To run and build the project locally, you'll need:
 
 - Visual Studio (2022 or newer)
-- .NET Desktop Development workload
-- A MySQL or SQL Server database
-- Git (optional)
+- .NET Desktop Development workload installed
+- Access to a SQL database (e.g., SQL Server or MySQL)
+- Git (optional, for cloning)
 
 ---
 
 ### Installation & Setup
 
-#### 1. Clone the repository
+1. **Clone the repository:**
 
-```bash
-git clone https://github.com/YourUsername/warehouse-management-system.git
-cd warehouse-management-system
+   ```bash
+   git clone https://github.com/YourUsername/warehouse-management-system.git
+   cd warehouse-management-system
+
