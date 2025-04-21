@@ -46,7 +46,7 @@ To run and build the project locally, you'll need:
    ```bash
    git clone https://github.com/YourUsername/warehouse-management-system.git
    cd warehouse-management-system
-   
+
 2. **Open the project in Visual Studio:**
 
    Open `Warehouse Management System.sln`.
@@ -55,17 +55,17 @@ To run and build the project locally, you'll need:
 
    Update the database connection string in `settings.json`.
    ```bash
-   Server=;Port=;Database=;User ID=;Password=;
+   Server= ;Port= ;Database= ;User ID= ;Password= ;
+
+4. **Create database tables:**
+
+   Run the provided `init_db.sql` to create the necessary tables.
 
 5. **Build the project:**
 
-   ```bash
-   Ctrl + Shift + B  # or use the Build menu
+   `Ctrl + Shift + B`  (or use the Build menu)
 
-6. **Run the application:**
-
-   ```bash
-   F5  # or click the green Start button
+6. **Run the application**
 
 ## 📃 License
 
