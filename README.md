@@ -44,7 +44,7 @@ To run and build the project locally, you'll need:
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/YourUsername/warehouse-management-system.git
+   git clone https://github.com/CennethWilson/warehouse-management-system.git
    cd warehouse-management-system
 
 2. **Open the project in Visual Studio:**
