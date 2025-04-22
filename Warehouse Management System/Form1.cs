@@ -12,6 +12,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
+using System.Text.Json;
 
 namespace Warehouse_Management_System
 {
@@ -704,9 +706,21 @@ namespace Warehouse_Management_System
             }
         }
 
+        public class AppSettings
+        {
+            public string ConnectionString { get; set; }
+        }
+
         public class Database
         {
-            private string connectionString = File.ReadAllText("settings.json");
+            private readonly string connectionString;
+
+            public Database()
+            {
+                string json = File.ReadAllText("settings.json");
+                AppSettings settings = JsonSerializer.Deserialize<AppSettings>(json);
+                connectionString = settings.ConnectionString;
+            }
 
             public MySqlConnection GetConnection()
             {
