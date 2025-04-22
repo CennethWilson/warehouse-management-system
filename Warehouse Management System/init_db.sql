@@ -56,4 +56,4 @@ CREATE TABLE StatusText (
 );
 
 INSERT INTO StatusText (statusInt, statusString) VALUES (0, "Pending");
-INSERT INTO StatusText (statusInt, statusString) VALUES (1, "Completed");
+INSERT INTO StatusText (statusInt, statusString) VALUES (1, "Completed"); 
