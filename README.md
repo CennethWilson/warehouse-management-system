@@ -19,10 +19,10 @@ The **Warehouse Management System** is an educational simulation that features:
 ## 🛠️ Built With
 
 - [C#](https://learn.microsoft.com/en-us/dotnet/csharp/) — primary programming language
-- [WinForms](https://learn.microsoft.com/en-us/dotnet/desktop/winforms/) — for user interface development
+- [WinForms](https://learn.microsoft.com/en-us/dotnet/desktop/winforms/) — UI development
 - [Microsoft Visual Studio](https://visualstudio.microsoft.com/) — development environment
-- [SQL Server / MySQL](https://www.mysql.com/) — backend database (configurable)
-- [Guna UI2](https://www.nuget.org/packages/Guna.UI2.WinForms/) — for modern UI elements
+- [SQL Server / MySQL](https://www.mysql.com/) — backend database
+- [Guna UI2](https://www.nuget.org/packages/Guna.UI2.WinForms/) — modern UI elements
 
 ---
 
