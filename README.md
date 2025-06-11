@@ -67,6 +67,12 @@ To run and build the project locally, you'll need:
 
 6. **Run the application**
 
+---
+
+## 📊 Results
+
+https://github.com/user-attachments/assets/eed1bafb-1466-4473-89d5-a069705174f7
+
 ## 📃 License
 
 This project is licensed under the MIT License. See the `LICENSE.txt` file for more information.
